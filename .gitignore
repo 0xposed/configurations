@@ -3,3 +3,5 @@ node_modules/
 *.tgz
 coverage/
 .idea/
+.changeset/*.md
+!.changeset/README.md

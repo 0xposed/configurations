@@ -16,15 +16,19 @@
   "packageManager": "pnpm@10.17.1",
   "scripts": {
     "check": "pnpm test && pnpm lint && pnpm format:check",
+    "changeset": "changeset",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "release": "changeset publish",
+    "version-packages": "changeset version",
     "test": "node --test"
   },
   "devDependencies": {
     "@0xposed/eslint-config": "workspace:*",
     "@0xposed/prettier-config": "workspace:*",
+    "@changesets/cli": "^3.0.3",
     "eslint": "^9.39.2",
     "prettier": "^3.8.1",
     "svelte": "^5.49.2",

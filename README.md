@@ -80,14 +80,30 @@ Use an npm account with publishing access to the `@0xposed` scope. Both packages
 include the MIT license and metadata linking to
 [0xposed/configurations](https://github.com/0xposed/configurations).
 
+Create a release branch from `master` (for example, `release/v0.1.0`). Add a
+Changeset for the package or packages being released:
+
 ```sh
+pnpm changeset
 pnpm check
-npm pack ./packages/eslint-config --dry-run
-npm pack ./packages/prettier-config --dry-run
-npm login
-npm publish ./packages/eslint-config --access public
-npm publish ./packages/prettier-config --access public
 ```
 
-For later releases, bump the changed package's version before publishing it.
-The root workspace is private and is not published.
+Review and commit the generated Changeset markdown. When ready to release, apply
+the recorded version bumps and changelogs, then commit them:
+
+```sh
+pnpm version-packages
+pnpm check
+git add packages .changeset
+git commit -m "chore: version packages"
+```
+
+Publish the bumped packages from the release branch:
+
+```sh
+npm login
+pnpm release
+```
+
+Changesets publishes only changed public packages. The root workspace stays
+private. Merge release changes back to `master` after publishing.
