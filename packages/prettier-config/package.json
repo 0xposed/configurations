@@ -1,9 +1,9 @@
 {
   "name": "@0xposed/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared Prettier settings for JavaScript, TypeScript, Svelte and Tailwind projects.",
-  "author": "0xposed",
-  "license": "MIT",
+  "author": "0xposed <0xposed@pm.me>",
+  "license": "WTFPL",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0xposed/configurations.git",

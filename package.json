@@ -1,8 +1,8 @@
 {
   "name": "configurations",
   "description": "Shared ESLint and Prettier configurations for @0xposed projects.",
-  "author": "0xposed",
-  "license": "MIT",
+  "author": "0xposed <0xposed@pm.me>",
+  "license": "WTFPL",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0xposed/configurations.git"
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@0xposed/eslint-config": "workspace:*",
     "@0xposed/prettier-config": "workspace:*",
-    "@changesets/cli": "^3.0.3",
+    "@changesets/cli": "^2.31.1",
     "eslint": "^9.39.2",
     "prettier": "^3.8.1",
     "svelte": "^5.49.2",
