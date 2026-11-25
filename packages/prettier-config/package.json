@@ -1,0 +1,48 @@
+{
+  "name": "@0xposed/prettier-config",
+  "version": "0.1.0",
+  "description": "Shared Prettier settings for JavaScript, TypeScript, Svelte and Tailwind projects.",
+  "author": "0xposed",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xposed/configurations.git",
+    "directory": "packages/prettier-config"
+  },
+  "homepage": "https://github.com/0xposed/configurations/tree/master/packages/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/0xposed/configurations/issues"
+  },
+  "keywords": [
+    "0xposed",
+    "prettier",
+    "prettier-config",
+    "javascript",
+    "typescript",
+    "svelte",
+    "sveltekit",
+    "tailwindcss"
+  ],
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./svelte": "./svelte.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "peerDependencies": {
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "prettier-plugin-svelte": "^3.4.1",
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  }
+}
