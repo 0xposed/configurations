@@ -1,0 +1,33 @@
+{
+  "name": "configurations",
+  "description": "Shared ESLint and Prettier configurations for @0xposed projects.",
+  "author": "0xposed",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xposed/configurations.git"
+  },
+  "homepage": "https://github.com/0xposed/configurations#readme",
+  "bugs": {
+    "url": "https://github.com/0xposed/configurations/issues"
+  },
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.17.1",
+  "scripts": {
+    "check": "pnpm test && pnpm lint && pnpm format:check",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@0xposed/eslint-config": "workspace:*",
+    "@0xposed/prettier-config": "workspace:*",
+    "eslint": "^9.39.2",
+    "prettier": "^3.8.1",
+    "svelte": "^5.49.2",
+    "typescript": "^5.9.3"
+  }
+}
