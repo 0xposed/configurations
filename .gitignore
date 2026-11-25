@@ -1,0 +1,7 @@
+node_modules/
+.pnpm-store/
+*.tgz
+coverage/
+.idea/
+.changeset/*.md
+!.changeset/README.md
