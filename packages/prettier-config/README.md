@@ -1,11 +1,13 @@
-# @0xposed/prettier-config
+<h1 align="center">@0xposed/prettier-config</h1>
+
+<p align="center">Shared Prettier settings for JavaScript, TypeScript, Svelte, and Tailwind.</p>
 
 <p align="center">
   <a aria-label="Version" href="https://www.npmjs.com/package/@0xposed/prettier-config">
     <img alt="Version" src="https://img.shields.io/npm/v/@0xposed/prettier-config?style=flat&color=000&logoColor=000">
   </a>
   <a aria-label="License" href="https://github.com/0xposed/configurations/blob/master/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/0xposed/configurations?style=flat&color=000&logoColor=000">
+    <img alt="License" src="https://img.shields.io/github/license/0xposed/configurations?style=flat&color=000000">
   </a>
 </p>
 

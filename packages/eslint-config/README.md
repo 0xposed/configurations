@@ -1,11 +1,13 @@
-# @0xposed/eslint-config
+<h1 align="center">@0xposed/eslint-config</h1>
+
+<p align="center">ESLint flat presets for JavaScript, TypeScript, Node.js, and Svelte.</p>
 
 <p align="center">
   <a aria-label="Version" href="https://www.npmjs.com/package/@0xposed/eslint-config">
     <img alt="Version" src="https://img.shields.io/npm/v/@0xposed/eslint-config?style=flat&color=000&logoColor=000">
   </a>
   <a aria-label="License" href="https://github.com/0xposed/configurations/blob/master/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/0xposed/configurations?style=flat&color=000&logoColor=000">
+    <img alt="License" src="https://img.shields.io/github/license/0xposed/configurations?style=flat&color=000000">
   </a>
 </p>
 

@@ -1,8 +1,8 @@
 {
   "name": "configurations",
   "description": "Shared ESLint and Prettier configurations for @0xposed projects.",
-  "author": "0xposed",
-  "license": "MIT",
+  "author": "0xposed <0xposed@pm.me>",
+  "license": "WTFPL",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0xposed/configurations.git"

@@ -10,7 +10,7 @@
     <img alt="Prettier config version" src="https://img.shields.io/npm/v/@0xposed/prettier-config?style=flat&color=000&logoColor=000&label=prettier">
   </a>
   <a aria-label="License" href="https://github.com/0xposed/configurations/blob/master/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/0xposed/configurations?style=flat&color=000&logoColor=000">
+    <img alt="License" src="https://img.shields.io/github/license/0xposed/configurations?style=flat&color=000000">
   </a>
 </p>
 
@@ -75,12 +75,12 @@ TypeScript linting, unused-import detection, Svelte 5 parsing, and formatting.
 
 ## Publish
 
-Both packages start at `0.1.0` and set `publishConfig.access` to `public`.
+Both packages set `publishConfig.access` to `public`.
 Use an npm account with publishing access to the `@0xposed` scope. Both packages
-include the MIT license and metadata linking to
+include the WTFPL license and metadata linking to
 [0xposed/configurations](https://github.com/0xposed/configurations).
 
-Create a release branch from `master` (for example, `release/v0.1.0`). Add a
+Create a release branch from `master` (for example, `release/v0.1.1`). Add a
 Changeset for the package or packages being released:
 
 ```sh
