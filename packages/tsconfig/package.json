@@ -1,0 +1,38 @@
+{
+  "name": "@0xposed/tsconfig",
+  "version": "0.0.0",
+  "description": "Shared TypeScript compiler configurations for Node.js and SvelteKit projects.",
+  "author": "0xposed <0xposed@pm.me>",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xposed/configurations.git",
+    "directory": "packages/tsconfig"
+  },
+  "homepage": "https://github.com/0xposed/configurations/tree/master/packages/tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/0xposed/configurations/issues"
+  },
+  "keywords": [
+    "0xposed",
+    "typescript",
+    "tsconfig",
+    "config",
+    "nodejs",
+    "svelte",
+    "sveltekit"
+  ],
+  "exports": {
+    ".": "./base.json",
+    "./base": "./base.json",
+    "./node": "./node.json",
+    "./svelte": "./svelte.json"
+  },
+  "files": [
+    "*.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

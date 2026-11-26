@@ -1,6 +1,6 @@
 <h1 align="center">Configurations</h1>
 
-<p align="center">Shared ESLint and Prettier presets for @0xposed projects.</p>
+<p align="center">Shared ESLint, Prettier, and TypeScript presets for @0xposed projects.</p>
 
 <p align="center">
   <a aria-label="ESLint config version" href="https://www.npmjs.com/package/@0xposed/eslint-config">
@@ -8,6 +8,9 @@
   </a>
   <a aria-label="Prettier config version" href="https://www.npmjs.com/package/@0xposed/prettier-config">
     <img alt="Prettier config version" src="https://img.shields.io/npm/v/@0xposed/prettier-config?style=flat&color=000&logoColor=000&label=prettier">
+  </a>
+  <a aria-label="TypeScript config version" href="https://www.npmjs.com/package/@0xposed/tsconfig">
+    <img alt="TypeScript config version" src="https://img.shields.io/npm/v/@0xposed/tsconfig?style=flat&color=000&logoColor=000&label=typescript">
   </a>
   <a aria-label="License" href="https://github.com/0xposed/configurations/blob/master/LICENSE">
     <img alt="License" src="https://img.shields.io/github/license/0xposed/configurations?style=flat&color=000000">
@@ -20,6 +23,7 @@
 | -------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [@0xposed/eslint-config](packages/eslint-config/README.md)     | Node/TypeScript (default), environment-neutral base, Svelte/SvelteKit |
 | [@0xposed/prettier-config](packages/prettier-config/README.md) | Base formatting, Svelte + Tailwind                                    |
+| [@0xposed/tsconfig](packages/tsconfig/README.md)               | Shared base, Node.js, and SvelteKit compiler options                  |
 
 ES modules, Node 20.19+, ESLint 9, Prettier 3, and TypeScript 5.
 These presets build on Encore's tooling and recent Svelte projects, with your
@@ -29,7 +33,7 @@ and an 80-character print width.
 ## Use after publishing
 
 ```sh
-pnpm add -D @0xposed/eslint-config @0xposed/prettier-config eslint@^9 prettier@^3 typescript@^5
+pnpm add -D @0xposed/eslint-config @0xposed/prettier-config @0xposed/tsconfig eslint@^9 prettier@^3 typescript@^5
 ```
 
 `eslint.config.mjs`:
