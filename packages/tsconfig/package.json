@@ -1,6 +1,6 @@
 {
   "name": "@0xposed/tsconfig",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Shared TypeScript compiler configurations for Node.js and SvelteKit projects.",
   "author": "0xposed <0xposed@pm.me>",
   "license": "WTFPL",
